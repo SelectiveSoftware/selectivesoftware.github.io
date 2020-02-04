@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<svg width="640" height="190" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" style="vector-effect: non-scaling-stroke;">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+
+ <g class="layer">
+  <title>Layer 1</title>
+  <text fill="#000000" font-family="helvetica" font-size="24" id="svg_1" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(2.32895, 0, 0, 2.32895, -200.278, -237.486)" x="251.659554" xml:space="preserve" y="150.717219">Selective Software</text>
+  <g id="svg_31">
+   <path d="m10.357916,38.225811c0.067697,0.017059 41.030819,-23.966209 41.174521,-23.991681c0.143702,-0.025472 40.91395,23.70419 40.931106,23.623585c0.017156,-0.080605 0.134312,47.43879 0.051468,47.458185c-0.082844,0.019395 40.711794,-23.927609 40.75067,-23.86059c0.038876,0.067019 0.53906,95.000427 0.416628,95.001058c-0.122432,0.00063 -41.167298,24.208951 -41.167298,24.301891c0,0.09294 0,-47.71412 0,-47.72118c0,-0.00706 -40.945845,23.80706 -41.018767,23.86059c-0.072922,0.05353 -40.945845,-23.628329 -41.018767,-23.592493c-0.072922,0.035836 -0.187259,-95.096424 -0.119562,-95.079365z" fill="#00ffff" fill-opacity="0.01" id="svg_9" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+   <line fill="none" fill-opacity="0.01" id="svg_11" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="92.842859" x2="133.985718" y1="36.547618" y2="60.119048"/>
+   <line fill="none" fill-opacity="0.01" id="svg_12" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="10.414284" x2="51.414286" y1="38.119047" y2="61.690476"/>
+   <line fill="none" fill-opacity="0.01" id="svg_13" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="92.414288" x2="51.557143" y1="37.690475" y2="61.833333"/>
+   <line fill="none" fill-opacity="0.01" id="svg_15" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="51.414286" x2="51.414286" y1="61.690469" y2="156.690581"/>
+   <line fill="none" fill-opacity="0.01" id="svg_16" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="92.557145" x2="51.557143" y1="85.261887" y2="109.261888"/>
+   <line fill="none" fill-opacity="0.01" id="svg_18" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="10.557141" x2="51.557143" y1="85.690458" y2="109.404745"/>
+   <line fill="none" fill-opacity="0.01" id="svg_27" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="92.271431" x2="92.414288" y1="85.26189" y2="132.976178"/>
+   <line fill="none" fill-opacity="0.01" id="svg_28" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="133.41429" x2="92.414288" y1="108.83332" y2="132.976178"/>
+   <line fill="none" fill-opacity="0.01" id="svg_29" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="44.27143" x2="91.985717" y1="154.474195" y2="181.97618"/>
+  </g>
+ </g>
+</svg>

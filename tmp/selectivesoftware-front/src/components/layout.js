@@ -1,5 +1,6 @@
 import React from "react";
 import "../assets/scss/main.scss";
+import "../assets/scss/selective.scss";
 
 import Zombotron from "./Zombotron";
 import Footer from "./Footer";
