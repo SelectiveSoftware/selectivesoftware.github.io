@@ -12,6 +12,16 @@ class Homepage extends React.Component {
     render() {
         const siteTitle = "Gatsby Starter - Photon";
 
+        //<TheFlipper> </TheFlipper>
+        //<LatestProject> </LatestProject>
+        //<ContactUs> </ContactUs>
+        return (
+          <Layout>
+                <Helmet title={siteTitle} />
+          </Layout>
+        );
+
+/*
         return (
             <Layout>
                 <Helmet title={siteTitle} />
@@ -106,6 +116,7 @@ class Homepage extends React.Component {
                 </section>
             </Layout>
         );
+*/
     }
 }
 

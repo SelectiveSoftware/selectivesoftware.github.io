@@ -1,6 +1,6 @@
 import React from 'react'
 
-class Header extends React.Component {
+class Zombotron extends React.Component {
     render() {
         return (
             <section id="header">
@@ -19,4 +19,4 @@ class Header extends React.Component {
     }
 }
 
-export default Header
+export default Zombotron

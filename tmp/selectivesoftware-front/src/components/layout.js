@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/scss/main.scss";
 
-import Header from "./Header";
+import Zombotron from "./Zombotron";
 import Footer from "./Footer";
 
 class Template extends React.Component {
@@ -29,7 +29,7 @@ class Template extends React.Component {
 
         return (
             <div className={`body ${this.state.loading}`}>
-                <Header />
+                <Zombotron />
                 {children}
                 <Footer />
             </div>
