@@ -1,8 +1,8 @@
 import React from 'react'
 
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
+import peopleImage from '../assets/images/people.svg'
+import processImage from '../assets/images/process.svg'
+import technologyImage from '../assets/images/technology.svg'
 
 class Flipper extends React.Component {
     render() {
@@ -16,42 +16,43 @@ class Flipper extends React.Component {
                         <p>We think about what we are doing</p>
                     </div>
 
-                    <div className="col-4">
-                        <span className="image fit"><img src={pic02} alt="" /></span>
-                        <h3>People</h3>
-                        <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
-                        <ul className="actions">
-                            <li><a href="#" className="button">More</a></li>
-                        </ul>
-                    </div>
-                    <div className="col-4">
-                        <span className="image fit"><img src={pic03} alt="" /></span>
-                        <h3>Technology</h3>
-                        <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
-                        <ul className="actions">
-                            <li><a href="#" className="button">More</a></li>
-                        </ul>
-                    </div>
-                    <div className="col-4">
-                        <span className="image fit"><img src={pic04} alt="" /></span>
-                        <h3>Process</h3>
-                        <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
-                        <ul className="actions">
-                            <li><a href="#" className="button">More</a></li>
-                        </ul>
-                    </div>
-
+                    <div className="flip-box col-4">
+                      <div className="flip-box-inner">
+                        <div className="flip-box-front">
+                          <span className="image half"><img src={peopleImage} alt="" /></span>
+                          <h3>People</h3>
+                          <p>People are one of the most important and influential factors in developing quality software.</p>
+                        </div>
+                        <div className="flip-box-back">
+                          <h2>Back Side</h2>
+                        </div>
+                      </div>
+                    </div> 
+                    <div className="flip-box col-4">
+                      <div className="flip-box-inner">
+                        <div className="flip-box-front">
+                          <span className="image half"><img src={technologyImage} alt="" /></span>
+                          <h3>Technology</h3>
+                          <p>The technology chosen needs to reflect the desired outcomes of the project.</p>
+                        </div>
+                        <div className="flip-box-back">
+                          <h2>Back Side</h2>
+                        </div>
+                      </div>
+                    </div> 
+                    <div className="flip-box col-4">
+                      <div className="flip-box-inner">
+                        <div className="flip-box-front">
+                          <span className="image half"><img src={processImage} alt="" /></span>
+                          <h3>Process</h3>
+                          <p>Processes are how people go about their work, therefore a wholistic approach is taken.</p>
+                        </div>
+                        <div className="flip-box-back">
+                          <h2>Back Side</h2>
+                        </div>
+                      </div>
+                    </div> 
                 </div>
- <div class="flip-box">
-  <div class="flip-box-inner">
-    <div class="flip-box-front">
-      <h2>Front Side</h2>
-    </div>
-    <div class="flip-box-back">
-      <h2>Back Side</h2>
-    </div>
-  </div>
-</div> 
             </section>
         )
     }

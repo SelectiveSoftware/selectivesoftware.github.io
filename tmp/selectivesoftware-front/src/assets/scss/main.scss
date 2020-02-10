@@ -506,6 +506,16 @@
 				width: 100%;
 			}
 		}
+
+		&.half {
+			display: block;
+			margin: auto;
+			width: 50%;
+
+			img {
+				width: 100%;
+			}
+		}
 	}
 
 /* List */
