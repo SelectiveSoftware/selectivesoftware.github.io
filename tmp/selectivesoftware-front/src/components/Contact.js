@@ -34,7 +34,7 @@ class Contact extends React.Component {
                 bottom: "0px",
                 right: "0px"
             }}>
-                <Button variant="outlined" color="primary" onClick={this.handleClickOpen}>
+                <Button variant="contained" onClick={this.handleClickOpen}>
                     Contact Us
                 </Button>
                 <Dialog open={open} onClose={this.handleClose} aria-labelledby="form-dialog-title">
