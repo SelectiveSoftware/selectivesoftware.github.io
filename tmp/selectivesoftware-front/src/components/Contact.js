@@ -26,14 +26,7 @@ class Contact extends React.Component {
         const {open} = this.state;
 
         return (
-            <div style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                position: "fixed",
-                bottom: "10px",
-                right: "15px"
-            }}>
+            <div className="contact">
                 <Button variant="contained" onClick={this.handleClickOpen}>
                     Contact Us
                 </Button>
