@@ -30,6 +30,9 @@ class Contact extends React.Component {
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
+                position: "fixed",
+                bottom: "0px",
+                right: "0px"
             }}>
                 <Button variant="outlined" color="primary" onClick={this.handleClickOpen}>
                     Contact Us
