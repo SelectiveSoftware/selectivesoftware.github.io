@@ -7,11 +7,6 @@
     height: 100px;
 }
 .contact {
-    raisedButton: {
-        textColor: #ffffff; // this should work
-        primaryTextColor: #ffffff; // or this if using `primary` style
-    }
-
     display: flex;
     justifyContent: center;
     alignItems: center;
