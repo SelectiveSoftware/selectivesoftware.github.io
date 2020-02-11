@@ -7,7 +7,7 @@ import technologyImage from '../assets/images/technology.svg'
 class Flipper extends React.Component {
     render() {
         return (
-            <section id="flipper" className="main style1 special">
+            <section id="selective" className="main style1 special">
                 <div className="grid-wrapper">
                     <div className="col-12">
                         <header className="major">
