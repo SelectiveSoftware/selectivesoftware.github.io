@@ -5,14 +5,15 @@ class Footer extends React.Component {
         return (
             <section id="footer">
                 <ul className="icons">
-                    <li><a href="#" className="icon alt fa-twitter"><span className="label">Twitter</span></a></li>
-                    <li><a href="#" className="icon alt fa-facebook"><span className="label">Facebook</span></a></li>
-                    <li><a href="#" className="icon alt fa-instagram"><span className="label">Instagram</span></a></li>
-                    <li><a href="#" className="icon alt fa-github"><span className="label">GitHub</span></a></li>
-                    <li><a href="#" className="icon alt fa-envelope"><span className="label">Email</span></a></li>
+                    <li>Address: First Line, Second Line, Postcode.</li>
+                    <li>Email: info@selectivesoftware.co.uk</li>
                 </ul>
                 <ul className="copyright">
-                    <li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                    <li>Company Registration No. 00000000</li>
+                    <li>Vat Registration GB0000000000</li>
+                    <li>Registered in England & Wales</li>
+                    <li>&copy; 2020</li>
+                    <li>Designed by Selective Software</li>
                 </ul>
             </section>
         )
