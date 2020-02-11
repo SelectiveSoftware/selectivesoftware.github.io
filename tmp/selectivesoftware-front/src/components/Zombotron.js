@@ -10,7 +10,7 @@ class Zombotron extends React.Component {
                     <p>Crafting software<br />
                     not making it.</p>
                     <ul className="actions">
-                        <li><a href="#one" className="button scrolly">Discover</a></li>
+                        <li><a href="#flipper" className="button scrolly">Select</a></li>
                     </ul>
                 </div>
             </section>
