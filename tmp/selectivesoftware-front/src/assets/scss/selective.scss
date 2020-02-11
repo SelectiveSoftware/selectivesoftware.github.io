@@ -10,7 +10,7 @@
     background-color: #898FFF;
 
     h2 {
-        padding: 0px;
+        padding-top: 1em;
         margin: 0px;
         font-size: 30px;
         color: white;
@@ -22,6 +22,7 @@
         max-width: 70%;
         text-align: center;
         margin: auto;
+        padding-bottom: 1em;
     }
 }
  /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
