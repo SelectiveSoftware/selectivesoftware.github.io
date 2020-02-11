@@ -9,16 +9,17 @@
 .Latest {
     background-color: #898FFF;
 
+    h2 {
+        font-size: 30px;
+        color: white;
+        text-align: center;
+    }
+
     p {
         color: white;
         max-width: 70%;
         text-align: center;
-        margin: 0 auto 10%;
-    }
-
-    center {
-        font-size: 30px;
-        color: white;
+        margin: auto;
     }
 }
  /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
