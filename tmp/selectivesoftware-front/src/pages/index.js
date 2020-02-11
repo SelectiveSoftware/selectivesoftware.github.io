@@ -3,6 +3,8 @@ import Helmet from "react-helmet";
 
 import Layout from '../components/layout';
 import Flipper from '../components/Flipper';
+import Latest from '../components/Latest';
+
 
 import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
@@ -20,6 +22,7 @@ class Homepage extends React.Component {
           <Layout>
                 <Helmet title={siteTitle} />
                 <Flipper> </Flipper>
+                <Latest></Latest>
                 <Contact></Contact>
 
           </Layout>
