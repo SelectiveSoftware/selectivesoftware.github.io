@@ -31,8 +31,8 @@ class Contact extends React.Component {
                 justifyContent: "center",
                 alignItems: "center",
                 position: "fixed",
-                bottom: "0px",
-                right: "0px"
+                bottom: "10px",
+                right: "15px"
             }}>
                 <Button variant="contained" onClick={this.handleClickOpen}>
                     Contact Us
