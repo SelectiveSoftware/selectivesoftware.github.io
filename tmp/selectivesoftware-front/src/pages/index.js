@@ -4,7 +4,7 @@ import Helmet from "react-helmet";
 import Layout from '../components/layout';
 import Flipper from '../components/Flipper';
 import Latest from '../components/Latest';
-import Contact from "../components/Contact";
+import ContactEmbedded from "../components/ContactEmbedded";
 
 class Homepage extends React.Component {
     render() {
@@ -17,7 +17,7 @@ class Homepage extends React.Component {
                 <Helmet title={siteTitle} />
                 <Flipper> </Flipper>
                 <Latest></Latest>
-                <Contact></Contact>
+                <ContactEmbedded></ContactEmbedded>
 
           </Layout>
         );

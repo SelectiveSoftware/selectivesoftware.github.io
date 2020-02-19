@@ -6,6 +6,7 @@ import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
+import { createMuiTheme } from '@material-ui/core/styles';
 
 class Contact extends React.Component {
     constructor(props) {
@@ -37,7 +38,6 @@ class Contact extends React.Component {
                             To Contact selective software enter your email address and question in the dialogs below and we will respond shortly!
                         </DialogContentText>
                         <TextField
-                            autoFocus
                             margin="dense"
                             id="name"
                             label="Email Address"
@@ -45,7 +45,6 @@ class Contact extends React.Component {
                             fullWidth
                         />
                         <TextField
-                            autoFocus
                             margin="dense"
                             id="name"
                             multiline

@@ -6,6 +6,27 @@
     width: 100%;
     height: 100px;
 }
+.contactUs {
+    h2 {
+        padding-top: 1em;
+        margin: 0px;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+.message {
+    padding: 1em;
+    width: 13em;
+    resize: both;
+    overflow: auto;
+    margin: auto;
+
+    textarea {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 .contact {
     display: flex;
     justifyContent: center;
