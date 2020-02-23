@@ -24,7 +24,14 @@ class Flipper extends React.Component {
                           <p>People are one of the most important and influential factors in developing quality software.</p>
                         </div>
                         <div className="flip-box-back">
-                          <h2>Back Side</h2>
+                          <h2>People</h2>
+                          <p>People are one of the key aspects for any project. Thats why we look for the following charactistics.</p>
+                          <ul className="text-align-left">
+                            <li>Experience</li>
+                            <li>Motivated</li>
+                            <li>Focus on quality</li>
+                            <li>Test driven design</li>
+                          </ul>
                         </div>
                       </div>
                     </div> 
@@ -36,7 +43,14 @@ class Flipper extends React.Component {
                           <p>The technology chosen needs to reflect the desired outcomes of the project.</p>
                         </div>
                         <div className="flip-box-back">
-                          <h2>Back Side</h2>
+                          <h2>Technology</h2>
+                          <p>Our experienced engineers have worked on many technologies including:</p>
+                          <ul className="text-align-left">
+                            <li>Java Spring Boot</li>
+                            <li>Big Data</li>
+                            <li>Apache Spark</li>
+                            <li>Cloud Systems</li>
+                          </ul>
                         </div>
                       </div>
                     </div> 
@@ -48,7 +62,13 @@ class Flipper extends React.Component {
                           <p>Processes are how people go about their work, therefore a wholistic approach is taken.</p>
                         </div>
                         <div className="flip-box-back">
-                          <h2>Back Side</h2>
+                          <h2>Process</h2>
+                          <p>We think about many processes on the projects we work on, and advise the relevant ones. Some examples include:</p>
+                          <ul className="text-align-left">
+                            <li>Agile development</li>
+                            <li>Product ownership</li>
+                            <li>Retrospectives</li>
+                          </ul>
                         </div>
                       </div>
                     </div> 

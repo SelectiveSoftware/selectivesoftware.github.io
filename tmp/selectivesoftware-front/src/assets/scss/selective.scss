@@ -95,11 +95,18 @@
 .flip-box-front {
   background-color: #fff;
   color: black;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* Style the back side */
 .flip-box-back {
-  background-color: #000;
-  color: white;
+  background-color: #fff;
   transform: rotateY(180deg);
+  padding-left: 10px;
+  padding-right: 10px;
 } 
+
+.text-align-left {
+  text-align: left;
+}
