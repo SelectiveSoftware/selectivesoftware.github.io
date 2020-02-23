@@ -40,9 +40,12 @@
 
 .Latest {
     background-color: #898FFF;
+    padding-bottom: 2em;
+    padding-top: 2em;
 
     h2 {
-        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-top: 0em;
         margin: 0px;
         font-size: 30px;
         color: white;
@@ -50,11 +53,12 @@
     }
 
     p {
+        padding-top: 0em;
+        padding-bottom: 0em;
         color: white;
         max-width: 70%;
         text-align: center;
         margin: auto;
-        padding-bottom: 1em;
     }
 }
  /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
