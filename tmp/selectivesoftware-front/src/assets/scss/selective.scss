@@ -15,6 +15,14 @@
         padding-bottom: 1em;
     }
 }
+.textField {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    width: 23em;
+    margin: auto;
+}
+
 .message {
     padding-left: 1em;
     padding-right: 1em;
@@ -28,7 +36,7 @@
         font-size: 0.6em;
         cursor: pointer;
         display: inline-block;
-        left: 75%;
+        left: 79%;
         position: relative;
         margin-top: 2em;
     }

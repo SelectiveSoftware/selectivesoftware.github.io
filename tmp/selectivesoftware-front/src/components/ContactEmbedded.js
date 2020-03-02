@@ -12,26 +12,24 @@ class ContactEmbedded extends React.Component {
 
     render() {
 
-
         return (
             <div className="contactUs">
             <div>
                 <h2>Contact Us</h2>
             </div>
-                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+            <div className="textField">
                 <form noValidate autoComplete="off">
-                        <TextField required id="standard-required" label="Required" defaultValue="Name" />
+                        <TextField fullWidth="true" required id="standard-required" placeholder="Name" />
                 </form>
             </div>
-                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <div className="textField">
                 <form noValidate autoComplete="off">
-                    <TextField required id="standard-required" label="Required" defaultValue="Email" />
+                        <TextField fullWidth="true" required id="standard-required" placeholder="Email" />
                 </form>
             </div>
                 <div className="message">
                     <TextareaAutosize label="Required" rowsMin={3} placeholder="Message" />
-
-                    <button>Default</button>
+                    <button>Send</button>
 
             </div>
         </div>
