@@ -1,8 +1,4 @@
 import React from 'react'
-import CssBaseline from '@material-ui/core/CssBaseline';
-import Typography from '@material-ui/core/Typography';
-import Container from '@material-ui/core/Container';
-import Paper from '@material-ui/core/Paper';
 
 class Latest extends React.Component {
     render() {
