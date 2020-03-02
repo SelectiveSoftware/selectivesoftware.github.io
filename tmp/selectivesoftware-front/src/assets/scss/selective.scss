@@ -19,8 +19,19 @@
     padding-left: 1em;
     padding-right: 1em;
     padding-bottom: 1em;
-    width: 13em;
+    width: 23em;
     margin: auto;
+
+    button {
+        border: none;
+        background-color: inherit;
+        font-size: 0.6em;
+        cursor: pointer;
+        display: inline-block;
+        left: 75%;
+        position: relative;
+        margin-top: 2em;
+    }
 
     textarea {
         font-size: 18px;

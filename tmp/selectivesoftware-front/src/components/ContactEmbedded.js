@@ -1,5 +1,6 @@
 import React from 'react'
 import TextField from '@material-ui/core/TextField';
+import TextareaAutosize from '@material-ui/core/TextareaAutosize';
 
 class ContactEmbedded extends React.Component {
     constructor(props) {
@@ -28,7 +29,9 @@ class ContactEmbedded extends React.Component {
                 </form>
             </div>
                 <div className="message">
-                    <textarea>Message</textarea>
+                    <TextareaAutosize label="Required" rowsMin={3} placeholder="Message" />
+
+                    <button>Default</button>
 
             </div>
         </div>
