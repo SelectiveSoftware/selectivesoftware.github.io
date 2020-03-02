@@ -79,6 +79,7 @@
   height: 400px;
   border: 1px solid #f1f1f1;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin: auto;
 }
 
 /* This container is needed to position the front and back side */
@@ -120,6 +121,7 @@
   transform: rotateY(180deg);
   padding-left: 10px;
   padding-right: 10px;
+  overflow-y: scroll;
 } 
 
 .text-align-left {

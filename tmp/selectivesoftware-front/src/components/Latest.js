@@ -9,7 +9,9 @@ class Latest extends React.Component {
         return (
             <div className="Latest">
                 <h2>Latest Project</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat, ipsum non accumsan pretium, risus orci convallis libero, vitae tincidunt dolor eros vel ipsum. Etiam hendrerit lobortis arcu ullamcorper sollicitudin. Duis mollis, purus ac efficitur iaculis, est nisl vehicula ante, et dictum leo erat non urna. Maecenas laoreet convallis vehicula. Nam pretium iaculis eleifend. Sed interdum ultrices lobortis. In mi purus, tincidunt eget euismod luctus, vehicula a nulla. Sed vitae egestas lorem, non porttitor lacus. Etiam eu malesuada odio, non volutpat ligula. Etiam auctor aliquam eros, nec finibus dui laoreet vitae. Pellentesque ut gravida enim, eget efficitur dui. Sed ornare, massa id laoreet lacinia, neque nisl mattis lectus, quis ornare velit augue ut dolor. Aliquam nec lorem ut erat consequat eleifend in in diam.</p>
+                <p>This client was looking for a static website. Our process involved drawing up inital various designs for the client, before getting feedback and working on the designs interatively.</p>
+                <p>Once the design phase was complete, we built and hosted the website for the client.</p>
+                <p>During the process of understanding the clients business, we suggested other ideas where technology could help the clients business. A couple of which the client is investigating, if they are viable and would help the business.</p>
             </div>
         )
     }
