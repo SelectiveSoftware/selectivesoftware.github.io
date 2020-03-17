@@ -42,26 +42,23 @@
     right: 15px;
 }
 
-.Latest {
+.wrapper {
+    text-align: center;
+    background-color: #898FFF;
+}
+
+.latest {
     background-color: #898FFF;
     padding-bottom: 2em;
     padding-top: 2em;
 
     h2 {
-        padding-bottom: 1em;
-        padding-top: 0em;
-        margin: 0px;
         font-size: 30px;
         color: white;
-        text-align: center;
     }
 
     p {
-        padding-top: 0em;
-        padding-bottom: 0em;
         color: white;
-        max-width: 70%;
-        text-align: center;
         margin: auto;
     }
 }
