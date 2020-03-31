@@ -3,25 +3,54 @@ import TextField from '@material-ui/core/TextField';
 import TextareaAutosize from '@material-ui/core/TextareaAutosize';
 import axios from 'axios';
 
+import ReCAPTCHA from "react-google-recaptcha";
+
 class ContactEmbedded extends React.Component {
 
     constructor(props) {
         super(props);
-        var endpointPostUrl = 'https:YOUR_SERVERLESS_ID.execute-api.eu-west-1.amazonaws.com/YOUR_STAGE';
         this.state = {
-            name: "",
-            email: "",
-            message: ""
+            captchaToken: "6LcDTuQUAAAAAG16x-7RGWK7aC2LzRdHU8a311Bw",
+            endpointPostUrl: 'https://rq2owt4ic9.execute-api.eu-west-1.amazonaws.com/Prod',
+            data: {
+                "name": "",
+                "email": "",
+                "message": "",
+                "phone": "",
+                "g-recaptcha-response": ""
+            }
         };
+    }
+
+    verifyCallback(recaptchaToken) {
+      this.setState({
+        data: {
+          ...this.state.data,
+          "g-recaptcha-response": recaptchaToken
+        }
+      });
     }
 
     onSubmitForm(event) {
       event.preventDefault();
-      console.log(event);
-      var formData = JSON.stringify(this.state)
+      var formData = JSON.stringify(this.state.data)
+
       console.log(formData);
+
+      axios.post(this.state.endpointPostUrl, formData, {
+          // receive two    parameter endpoint url ,form data
+      })
+      .then(res => {
+        if(res.status === 200) {
+          console.log("SUCCESS uploading. Response: " + res.data);
+        } else {
+          console.log("ERROR uploading.");
+          console.log(res);
+        }
+      });
+
+
      /* $.ajax({
-        type: 'POST',
         url: endpointPostUrl,
         data: formData,
         success: function(responseData) {
@@ -34,31 +63,34 @@ class ContactEmbedded extends React.Component {
     }
 
     handleChange = (event) => {
-        let o = {...this.state };
+        let o = {...this.state.data };
         o[event.target.name] = event.target.value;
-        this.setState(o);
+        this.setState({data: o});
     }
 
     render() {
         return (
             <div className="grid-wrapper">
-                <script src="https:www.google.com/recaptcha/api.js"></script>
                 <div className="col-3">
                 </div>
                 <div className="col-6 contactUs">
                     <h2>Contact Us</h2>
                     <form onSubmit={this.onSubmitForm.bind(this)} noValidate autoComplete="off">
                         <div className="textField">
-                            <TextField fullWidth required id="standard-required" placeholder="Name" onChange={this.handleChange} name="name" value={this.state.name} />
+                            <TextField fullWidth required id="standard-required" placeholder="Name" onChange={this.handleChange} name="name" value={this.state.data.name} />
                         </div>
                         <div className="textField">
-                            <TextField fullWidth required id="standard-required" placeholder="Email" onChange={this.handleChange} name="email" value={this.state.email}/>
+                            <TextField fullWidth required id="standard-required" placeholder="Email" onChange={this.handleChange} name="email" value={this.state.data.email}/>
                         </div>
                         <div className="message">
-                            <TextareaAutosize label="Required" rowsMin={3} placeholder="Message" onChange={this.handleChange} name="message" value={this.state.message}/>
+                            <TextareaAutosize label="Required" rowsMin={3} placeholder="Message" onChange={this.handleChange} name="message" value={this.state.data.message}/>
                         </div>
+                        <ReCAPTCHA
+                            sitekey={this.state.captchaToken}
+                            onChange={this.verifyCallback.bind(this)}
+                          />
                         <div className="submit">
-                            <button className="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY" data-callback="onSubmitForm">
+                            <button>
                                 Send
                             </button>
                         </div>

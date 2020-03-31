@@ -7,6 +7,7 @@ import Latest from '../components/Latest';
 import ContactEmbedded from "../components/ContactEmbedded";
 
 class Homepage extends React.Component {
+
     render() {
         const siteTitle = "Selective Software - IT Consultancy";
 
