@@ -10,8 +10,8 @@ class ContactEmbedded extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            captchaToken: "6LcDTuQUAAAAAG16x-7RGWK7aC2LzRdHU8a311Bw",
-            endpointPostUrl: 'https://rq2owt4ic9.execute-api.eu-west-1.amazonaws.com/Prod',
+            captchaToken: "6LenUOcUAAAAAD_e52KB7t8m7snbJXAZ2ha2OQMV",
+            endpointPostUrl: 'https://uip9zvhsj3.execute-api.eu-west-1.amazonaws.com/Prod/contactus',
             data: {
                 "name": "",
                 "email": "",
@@ -34,8 +34,6 @@ class ContactEmbedded extends React.Component {
     onSubmitForm(event) {
       event.preventDefault();
       var formData = JSON.stringify(this.state.data)
-
-      console.log(formData);
 
       axios.post(this.state.endpointPostUrl, formData, {
           // receive two    parameter endpoint url ,form data
