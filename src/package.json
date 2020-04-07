@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-photon",
-  "description": "Gatsby photon starter",
+  "name": "selective-software-website",
+  "description": "Selective Software Website",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Selective Software",
   "dependencies": {
     "@material-ui/core": "^4.9.1",
     "gatsby": "^2.15.14",
@@ -25,13 +25,15 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "devDependencies": {
+    "gh-pages": "^2.2.0",
     "prettier": "^1.18.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-photon"
+    "url": "https://github.com/selectivesoftware"
   }
 }
