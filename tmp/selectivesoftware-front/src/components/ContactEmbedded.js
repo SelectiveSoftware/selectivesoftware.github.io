@@ -41,6 +41,16 @@ class ContactEmbedded extends React.Component {
       .then(res => {
         if(res.status === 200) {
           console.log("SUCCESS uploading. Response: " + res.data);
+          this.setState({
+            ...this.state,
+            data: {
+                "name": "",
+                "email": "",
+                "message": "",
+                "phone": "",
+                "g-recaptcha-response": ""
+            }
+          });
         } else {
           console.log("ERROR uploading.");
           console.log(res);
@@ -88,7 +98,7 @@ class ContactEmbedded extends React.Component {
                             onChange={this.verifyCallback.bind(this)}
                           />
                         <div className="submit">
-                            <button>
+                            <button disabled={!this.state.data['g-recaptcha-response']}>
                                 Send
                             </button>
                         </div>
